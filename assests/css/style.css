@@ -1,0 +1,64 @@
+/* Styles for the events list */
+.wisor-events-list {
+    list-style: none;
+    padding: 0;
+}
+
+.wisor-events-list li {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.wisor-events-list h3 {
+    margin: 0 0 10px 0;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.wisor-events-list p {
+    margin: 0 0 10px 0;
+    color: #666;
+}
+
+.wisor-events-list span {
+    display: block;
+    font-size: 0.9em;
+    color: #888;
+}
+
+/* Styles for the event form */
+.wisor-event-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.wisor-event-form input[type="text"],
+.wisor-event-form input[type="date"],
+.wisor-event-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.wisor-event-form textarea {
+    height: 100px;
+}
+
+.wisor-event-form input[type="submit"] {
+    background: #0073aa;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.wisor-event-form input[type="submit"]:hover {
+    background: #005177;
+}
