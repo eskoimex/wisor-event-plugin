@@ -62,3 +62,32 @@
 .wisor-event-form input[type="submit"]:hover {
     background: #005177;
 }
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .wisor-events-list li {
+        padding: 10px;
+    }
+
+    .wisor-events-list h3 {
+        font-size: 1.2em;
+    }
+
+    .wisor-events-list p {
+        font-size: 0.9em;
+    }
+
+    .wisor-events-list span {
+        font-size: 0.8em;
+    }
+
+    .wisor-event-form input[type="text"],
+    .wisor-event-form input[type="date"],
+    .wisor-event-form textarea {
+        padding: 6px;
+    }
+
+    .wisor-event-form input[type="submit"] {
+        padding: 8px 16px;
+    }
+}
