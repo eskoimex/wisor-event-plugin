@@ -17,6 +17,7 @@ require_once plugin_dir_path(__FILE__) . 'includes/class-event-management.php';
 require_once plugin_dir_path(__FILE__) . 'includes/class-elementor-widget.php';
 require_once plugin_dir_path(__FILE__) . 'includes/class-shortcode.php';
 require_once plugin_dir_path(__FILE__) . 'includes/class-security.php';
+require_once plugin_dir_path(__FILE__) . 'includes/class-settings.php'; // Admin settings page
 
 // Initialize the plugin
 function wisor_events_plugin_init() {
@@ -25,5 +26,6 @@ function wisor_events_plugin_init() {
     new Wisor_Elementor_Widget();
     new Wisor_Shortcode();
     new Wisor_Security();
+    new Wisor_Events_Settings(); // Initialize the admin settings page
 }
 add_action('plugins_loaded', 'wisor_events_plugin_init');

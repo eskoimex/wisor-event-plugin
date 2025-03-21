@@ -1,0 +1,13 @@
+{
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+  "autoload-dev": {
+    "psr-4": {
+        "WisorEventsPlugin\\Tests\\": "tests/"
+    }
+}
+
+}
+
+    

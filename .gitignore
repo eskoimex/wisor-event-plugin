@@ -1,0 +1,51 @@
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE-specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Ignore dependency directories
+/node_modules/
+/vendor/
+
+# Ignore Composer files (if applicable)
+composer.lock
+composer.phar
+
+# Ignore local development files
+wp-config.php
+.env
+*.log
+
+# Ignore built assets (if applicable)
+/assets/css/*.min.css
+/assets/js/*.min.js
+
+# Ignore WordPress core files (if accidentally included)
+/wp-admin/
+/wp-includes/
+/wp-content/uploads/
+/wp-content/upgrade/
+/wp-content/themes/
+/wp-content/plugins/hello.php
+
+# Ignore local development environments
+*.local
+*.dev
+
+# Ignore backup files
+*.bak
+*.backup
+
+# Ignore compiled files
+*.mo
+*.po
+*.pot
+
+# Ignore test-related files
+/tests/reports/
+/tests/coverage/
