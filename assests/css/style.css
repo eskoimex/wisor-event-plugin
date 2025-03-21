@@ -63,6 +63,36 @@
     background: #005177;
 }
 
+
+/* Styles for the date filter dropdown */
+#date-filter {
+    margin-bottom: 20px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Styles for the "Load More" button */
+#load-more-events {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background: #0073aa;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#load-more-events:hover {
+    background: #005177;
+}
+
+/* Hide the "Load More" button when no more events are available */
+#load-more-events[disabled] {
+    display: none;
+}
+
 /* Responsive design */
 @media (max-width: 768px) {
     .wisor-events-list li {
@@ -90,4 +120,6 @@
     .wisor-event-form input[type="submit"] {
         padding: 8px 16px;
     }
+
+    
 }

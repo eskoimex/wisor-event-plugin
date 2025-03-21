@@ -8,6 +8,7 @@
             </li>
         <?php endwhile; ?>
     </ul>
+    <button id="load-more-events">Load More</button>
 <?php else : ?>
-    <p>No upcoming events found.</p>
+    <p>No events found.</p>
 <?php endif; ?>
